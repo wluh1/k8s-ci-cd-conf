@@ -7,7 +7,7 @@ images:
   repositoryDirname: europe-west1-docker.pkg.dev/k8s-ci-cd-1/podtato-head
   pullPolicy: IfNotPresent
   pullSecrets: []
-  tag: "1.4"
+  tag: "1.3"
 
 # keep ports in sync with podtato-services/main/pkg/provider.go
 entry:
