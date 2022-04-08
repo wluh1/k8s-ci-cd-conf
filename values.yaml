@@ -5,7 +5,7 @@ images:
   repositoryDirname: europe-west1-docker.pkg.dev/k8s-ci-cd-1/podtato-head
   pullPolicy: IfNotPresent
   pullSecrets: []
-  tag: '1.5'
+  tag: '1.6'
 entry:
   repositoryBasename: entry
   serviceType: LoadBalancer
