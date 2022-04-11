@@ -1,11 +1,11 @@
-nameOverride: ''
-fullnameOverride: ''
+nameOverride: ""
+fullnameOverride: ""
 replicaCount: 1
 images:
   repositoryDirname: europe-west1-docker.pkg.dev/k8s-ci-cd-1/podtato-head
   pullPolicy: IfNotPresent
   pullSecrets: []
-  tag: '1.9'
+  tag: "1.7"
 entry:
   repositoryBasename: entry
   serviceType: LoadBalancer
@@ -40,7 +40,7 @@ rightArm:
 serviceAccount:
   create: false
   annotations: {}
-  name: ''
+  name: ""
 podAnnotations: {}
 podSecurityContext: {}
 securityContext: {}
@@ -48,8 +48,8 @@ ingress:
   enabled: false
   annotations: {}
   hosts:
-  - host: chart-example.local
-    paths: []
+    - host: chart-example.local
+      paths: []
   tls: []
 resources: {}
 autoscaling:
